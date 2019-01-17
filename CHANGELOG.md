@@ -1,39 +1,3 @@
-## 2.2.0 (2018-1-7)
-
-### Enhancements
-* Ability to configure custom response expectations and away message for channels
-
-### Bug Fixes
-* Show loading when image is being loaded in Picture preview screen
-
-### Breaking Change
-* If you have modified strings.xml to hide response expectation messages, it will continue to work in all cases except when away. You can set `responseExpectationEnabled` flag in FreshchatConfig as `false` to completely hide response expectations.
-
-## 2.1.0 (2018-12-28)
-
-### Enhancements
-* Ability to mask sensitive data present in user message
-
-## 2.0.0 (2018-12-26)
-
-### Enhancements
-* Ability to intercept all external links
-* Securely identify and restore users using Id Tokens (JWT)
-* Ability to intercept Freshchat notification
-* Ability to listen to Freshchat events like message sent, message received, etc.
-
-### Breaking Change
-* Freshchat.handleGcmMessage API has been removed.
-* Change in method signature for Freshchat.handleFcmMessage API, now requires context as a param.
-
-## 1.5.3 (2018-10-12)
-
-### Enhancements
-* Allow reuse of deeplink scheme from message in FAQs
-
-### Bug Fixes
-* Add proguard rules to detect presence of Picasso
-
 ## 1.5.2 (2018-09-21)
 
 ### Enhancements
