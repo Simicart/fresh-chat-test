@@ -46,9 +46,9 @@
     <color name="freshchat_category_normal">@color/freshchat_white</color>
     <color name="freshchat_category_selected">#D8D8D8</color>
 
-    <color name="freshchat_seekbar_bg_start">#000000</color>
-    <color name="freshchat_seekbar_bg_center">#000000</color>
-    <color name="freshchat_seekbar_bg_end">#000000</color>
+    <color name="freshchat_seekbar_bg_start">#e42a31</color>
+    <color name="freshchat_seekbar_bg_center">#e42a31</color>
+    <color name="freshchat_seekbar_bg_end">#e42a31</color>
 
     <color name="freshchat_seekbar_progress_start">#505050</color>
     <color name="freshchat_seekbar_progress_center">#505050</color>
